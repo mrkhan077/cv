@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body bgcolor="#D9F5EA">
+    <h1><u>My Contact Details</u></h1>
+    <ul>
+        <li><strong>Phone No. : </strong>+919628004886</li>
+        <li><strong>E-mail : </strong>arqamk49@gmail.com</li>
+        <li><strong>Address : </strong>Kareli, Prayagraj</li>
+    </ul>
+    <hr>
+    <h1><u>Feedback</u></h1>
+    <h3><u>Your Experience</u></h3>
+    <table>
+        <form action="backend.php" method="GET" enctype="text/plain">
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td><input type="radio" name="Experience" id="exc"></td>
+                            <td><label for="exc">Excellent</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="Experience" id="good"></td>
+                            <td><label for="good">Good</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="Experience" id="normal"></td>
+                            <td><label for="normal">Normal</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="Experience" id="poor"></td>
+                            <td><label for="poor">Poor</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="Experience" id="bad"></td>
+                            <td><label for="bad">Bad</label></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="name">Name: </label></td>
+                <td><input type="text" name="Name" id="name" placeholder="Your Name"></td>
+            </tr>
+            <tr>
+                <td><label for="email">E-mail: </label></td>
+                <td><input type="email" name="Email" id="email" placeholder="Your E-mail"></td>
+            </tr>
+            <tr>
+                <td><label for="bdate">Birthdate:</label></td>
+                <td><input type="date" name="Birthdate" id="bdate"></td>
+            </tr>
+            <tr>
+                <td><label for="msg">Feedback: </label></td>
+                <td><textarea name="Message" id="msg" cols="30" rows="10" placeholder="Your Message"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="Submit" name="" id="">
+                    <input type="reset" name="" id="">
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
